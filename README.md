@@ -1,29 +1,54 @@
-# Forecast
+# Forecast Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+## Описание
 
-## Recommended IDE Setup
+Это веб-приложение для отображения текущей погоды в заданном городе. Используя API OpenWeatherMap, приложение позволяет пользователю ввести название города, после чего отображается информация о погоде, включая температуру, влажность, координаты и другие данные. Приложение включает в себя обработку ошибок, чтобы информировать пользователя о проблемах с запросом.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Технологии
 
-## Customize configuration
+- Vue.js
+- API OpenWeatherMap
+- HTML/CSS
+- JavaScript
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Функционал
 
-## Project Setup
+- Ввод названия города для получения погоды.
+- Отображение данных о погоде: температура, влажность, координаты и другие параметры.
+- Отображение ошибок в случае, если запрос не удается или введен неверный город.
 
-```sh
-npm install
-```
+## Структура проекта
 
-### Compile and Hot-Reload for Development
+- **WeatherSummary.vue**: Компонент, который отображает основные данные о погоде.
+- **Highlights.vue**: Компонент, отображающий дополнительные показатели погоды.
+- **Humidity.vue**: Компонент для отображения уровня влажности.
+- **Coords.vue**: Компонент, отображающий координаты города.
 
-```sh
-npm run dev
-```
+## Установка и запуск
 
-### Compile and Minify for Production
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/username/weather-app.git
+   ```
 
-```sh
-npm run build
-```
+2. Установите зависимости:
+   ```bash
+   npm install
+   ```
+
+3. Запустите приложение:
+   ```bash
+   npm run dev
+   ```
+
+## Скриншоты
+![Снимок50](https://github.com/user-attachments/assets/3359386e-1a22-47ef-b73b-81d5d06f685b)
+![Снимок51](https://github.com/user-attachments/assets/7b81dd5d-e0a1-46b6-a384-d8b68c5d425b)
+![Снимок52](https://github.com/user-attachments/assets/62d0049f-71e2-4609-9167-b6d3c261b4c9)
+![Снимок53](https://github.com/user-attachments/assets/04cf7840-6b0f-4110-86ae-ed4d2d57bdae)
+
+
+
+
+
+
